@@ -30,7 +30,9 @@ export default function App() {
             <a href="https://www.linkedin.com/in/noreen-eliza-roy-106b3b227/">LinkedIn</a>
           </div>
 
-          <a href="#" className="btn">Download Resume</a>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn">
+            Download Resume
+          </a>
         </motion.div>
       </section>
 
@@ -39,7 +41,6 @@ export default function App() {
         <h2>About Me</h2>
         <p>
           Computer Science graduate skilled in Python, React, and backend development.
-          Passionate about AI, scalable systems, and building impactful products.
         </p>
       </section>
 
@@ -51,7 +52,6 @@ export default function App() {
           <motion.div className="card" whileHover={{scale:1.05}}>
             <h3>Coauthor Recommendation System</h3>
             <p>ML + LLM system predicting research collaborations.</p>
-            <a href="https://github.com/NoreenElizaRoy/Coauthor-Recommendation-System">View Project</a>
           </motion.div>
 
           <motion.div className="card" whileHover={{scale:1.05}}>
