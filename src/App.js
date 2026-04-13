@@ -37,7 +37,7 @@ export default function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <h2 className="logo gradient-text">Noreen</h2>
+        <h2 className="logo gradient-text">Noreen Eliza Roy</h2>
         <div>
           <a href="#about" className={active==="about" ? "active" : ""}>About</a>
           <a href="#projects" className={active==="projects" ? "active" : ""}>Projects</a>
