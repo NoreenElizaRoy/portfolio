@@ -91,7 +91,7 @@ export default function App() {
       <motion.section id="about" initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}>
         <h2 className="gradient-text">About Me</h2>
         <p>
-  I’m Noreen Eliza Roy, a Mtech Computer Science student complted Btech with 9.32 CGPA, with a strong
+  I’m Noreen Eliza Roy, a Mtech Computer Science student completed Btech with 9.32 CGPA, with a strong
   passion for building intelligent, scalable, and user-focused digital solutions.
   <br /><br />
 
